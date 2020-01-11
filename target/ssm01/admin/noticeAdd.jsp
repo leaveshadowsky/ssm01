@@ -1,0 +1,79 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: leaveye
+  Date: 2020/1/10
+  Time: 15:33
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ include file="../base.jsp" %>
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>朝腾科技家教管理系统</title>
+    <link rel="stylesheet" href="${basePath}/admin/css/public.css"/>
+    <link rel="stylesheet" href="${basePath}/admin/css/style.css"/>
+</head>
+<body>
+<!--头部-->
+<header class="publicHeader">
+    <h1>朝腾科技家教管理系统</h1>
+
+    <div class="publicHeaderR">
+        <p><span>尊敬的</span><span style="color: #fff21b"> Admin</span> , 欢迎你！</p>
+        <a href="login.jsp">退出</a>
+    </div>
+</header>
+<!--时间-->
+<section class="publicTime">
+    <span id="time">2015年1月1日 11:11  星期一</span>
+</section>
+<!--主体内容-->
+<section class="publicMian ">
+    <div class="left">
+        <h2 class="leftH2"><span class="span1"></span>功能列表 <span></span></h2>
+        <nav>
+            <ul class="list">
+                <li><a href="${basePath}/notice/getAllNoticeByPage">公告管理</a></li>
+                <li><a href="${basePath}/teacher/getAllTeacher">教师管理</a></li>
+                <li><a href="${basePath}/parent/getAllParent">家长管理</a></li>
+                <li><a href="${basePath}/reserve/getReserveByPage">预约管理</a></li>
+                <li><a href="password.jsp">密码修改</a></li>
+                <li><a href="login.jsp">退出系统</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="right">
+        <div class="location">
+            <strong>你现在所在的位置是:</strong>
+            <span>公告管理页面 >> 公告添加页面</span>
+        </div>
+        <div class="providerAdd">
+            <form action="${basePath}/notice/addNotice" method="post">
+                <div>
+                    <label for="billName">栏目名称：</label>
+                    <input type="text" name="title" id="billName" data-validate="required:请输入栏目名称"/>
+                </div>
+                <div>
+                    <label for="billCom">栏目内容：</label>
+                    <input type="text" name="content" id="billCom" data-validate="required:栏目内容"/>
+                </div>
+                <div>
+                    <label for="sendTime">发送时间：</label>
+                    <input type="text" name="sendTime" id="sendTime" data-validate="required:栏目内容"/>
+                </div>
+                <div class="providerAddBtn">
+                    <input type="submit" value="新建"/>
+                    <input type="button" value="返回" onclick="history.back(-1)"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+</footer>
+<script src="${basePath}/admin/js/time.js"></script>
+
+</body>
+</html>
