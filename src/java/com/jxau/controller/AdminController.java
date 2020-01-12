@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
  */
 
 @Controller
-@SessionAttributes(value = "admin1")
+@SessionAttributes(types = Admin.class)
 @RequestMapping("/admin")
 public class AdminController {
     @Autowired

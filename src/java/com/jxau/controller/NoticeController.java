@@ -24,7 +24,6 @@ public class NoticeController {
     @Autowired
     NoticeService noticeService;
 
-
     //所有notice数据分页显示----------------------------------
     @RequestMapping("/getAllNoticeByPage")
     public String getAllNoticeByPage(HttpServletRequest request, HttpServletResponse response, Model model) {

@@ -8,35 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d174dc8b-8636-4332-a9c2-f9c172f2a325" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/jxau/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/jxau/controller/TeacherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/jxau/dao/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/jxau/dao/TeacherDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/jxau/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/jxau/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/jxau/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/jxau/service/TeacherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/com/jxau/service/impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/jxau/service/impl/TeacherServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/teacherAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/teacherAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/teacherList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/teacherList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/teacherList2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/teacherList2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/base.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/base.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index/style/list_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index/style/list_info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jxau/controller/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jxau/controller/TeacherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jxau/dao/TeacherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jxau/dao/TeacherDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jxau/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jxau/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jxau/service/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jxau/service/TeacherService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jxau/service/impl/TeacherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jxau/service/impl/TeacherServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/WEB-INF/classes/com/jxau/controller/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/WEB-INF/classes/com/jxau/controller/TeacherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/WEB-INF/classes/com/jxau/dao/TeacherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/WEB-INF/classes/com/jxau/dao/TeacherDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/WEB-INF/classes/com/jxau/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/WEB-INF/classes/com/jxau/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/WEB-INF/classes/com/jxau/service/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/WEB-INF/classes/com/jxau/service/TeacherService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/WEB-INF/classes/com/jxau/service/impl/TeacherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/WEB-INF/classes/com/jxau/service/impl/TeacherServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/admin/teacherAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/admin/teacherAdd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/admin/teacherList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/admin/teacherList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/admin/teacherList2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/admin/teacherList2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/base.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/base.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/index/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/index/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm01/index/style/list_info.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm01/index/style/list_info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/jxau/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/com/jxau/controller/NoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/parentList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/parentList.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,7 +25,7 @@
       <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/jxau/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="319">
               <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,11 +34,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="441">
               <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parentList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/parentList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoticeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/com/jxau/controller/NoticeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -106,18 +97,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/com/jxau/dao/AdminDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdminService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/jxau/service/AdminService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,15 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoticeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/com/jxau/service/NoticeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -167,9 +137,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>send_time</find>
+      <find>下午好</find>
+      <find>Admin</find>
     </findStrings>
     <replaceStrings>
       <replace>sendTime</replace>
+      <replace>管理员</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -189,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/java/com/jxau/controller/ParentController.java" />
         <option value="$PROJECT_DIR$/src/java/com/jxau/service/NoticeService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/parentList.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/parentAdd.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/parentUpdate.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/parentView.jsp" />
@@ -200,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/admin/noticeList.jsp" />
         <option value="$PROJECT_DIR$/src/java/com/jxau/dao/NoticeDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/noticeAdd.jsp" />
-        <option value="$PROJECT_DIR$/src/java/com/jxau/controller/NoticeController.java" />
         <option value="$PROJECT_DIR$/src/java/com/jxau/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/java/com/jxau/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/reserveAdd.jsp" />
@@ -229,6 +200,8 @@
         <option value="$PROJECT_DIR$/src/java/com/jxau/service/impl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/java/com/jxau/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/parentList.jsp" />
+        <option value="$PROJECT_DIR$/src/java/com/jxau/controller/NoticeController.java" />
       </list>
     </option>
   </component>
@@ -611,12 +584,12 @@
       <workItem from="1578724377000" duration="6929000" />
       <workItem from="1578732054091" duration="14611000" />
       <workItem from="1578788884571" duration="8058000" />
-      <workItem from="1578810771812" duration="4520000" />
+      <workItem from="1578810771812" duration="5175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105950000" />
+    <option name="totallyTimeSpent" value="106605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -662,13 +635,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/parentList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/jxau/model/Notice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -933,13 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/jxau/controller/NoticeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/jxau/dao/NoticeDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
@@ -1011,9 +970,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/parentList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/jxau/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="319">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1021,10 +994,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/java/com/jxau/controller/NoticeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        <state relative-caret-position="126">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>

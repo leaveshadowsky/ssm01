@@ -20,7 +20,7 @@
 <header class="publicHeader">
     <h1>朝腾科技家教管理系统</h1>
     <div class="publicHeaderR">
-        <p><span>下午好！</span><span style="color: #fff21b"> Admin</span> , 欢迎你！</p>
+        <p><span>管理员！</span><span style="color: #fff21b"> ${admin1.userName}</span> , 欢迎你！</p>
         <a href="login.jsp">退出</a>
     </div>
 </header>
