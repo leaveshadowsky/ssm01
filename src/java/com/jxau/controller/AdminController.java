@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
  */
 
 @Controller
-@SessionAttributes(types = Admin.class)
+@SessionAttributes(value = "admin1")
 @RequestMapping("/admin")
 public class AdminController {
     @Autowired
@@ -21,7 +21,7 @@ public class AdminController {
     @RequestMapping("/adminLogin")
     public String adminLogin(Admin admin,Model model){
         Admin admin1 = adminService.adminLogin(admin);
-        model.addAttribute(admin1);
+        model.addAttribute("admin1",admin1);
         return "index";
     }
 }
