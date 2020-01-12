@@ -53,6 +53,7 @@ public class TeacherServiceImpl implements TeacherService {
         return teacherDao.getAllTeacherBySubjectAddressSex(map);
     }
 
+
     @Override
     public int updateTeacherStatus(Teacher teacher) {
         return teacherDao.updateTeacherStatus(teacher);
@@ -61,5 +62,11 @@ public class TeacherServiceImpl implements TeacherService {
     @Override
     public int getTotalTeacher() {
         return teacherDao.getTotalTeacher();
+    }
+
+
+    @Override
+    public int getAllTeacherBySubjectAddressSexTotal(Map<String,Object> map){
+        return teacherDao.getAllTeacherBySubjectAddressSexTotal(map);
     }
 }

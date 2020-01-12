@@ -12,8 +12,8 @@ public class Student {
     private String address;
     private String photo;
     private String subject;
-    private String condition;
-    private String require;
+    private String situation;
+    private String demand;
     private int teacherId;
     private int parentId;
     private String studentStatus;
@@ -123,20 +123,20 @@ public class Student {
         this.subject = subject;
     }
 
-    public String getCondition() {
-        return condition;
+    public String getSituation() {
+        return situation;
     }
 
-    public void setCondition(String condition) {
-        this.condition = condition;
+    public void setSituation(String situation) {
+        this.situation = situation;
     }
 
-    public String getRequire() {
-        return require;
+    public String getDemand() {
+        return demand;
     }
 
-    public void setRequire(String require) {
-        this.require = require;
+    public void setDemand(String demand) {
+        this.demand = demand;
     }
 
     @Override
@@ -152,8 +152,8 @@ public class Student {
                 ", address='" + address + '\'' +
                 ", photo='" + photo + '\'' +
                 ", subject='" + subject + '\'' +
-                ", condition='" + condition + '\'' +
-                ", require='" + require + '\'' +
+                ", situation='" + situation + '\'' +
+                ", demand='" + demand + '\'' +
                 ", teacherId=" + teacherId +
                 ", parentId=" + parentId +
                 ", studentStatus='" + studentStatus + '\'' +

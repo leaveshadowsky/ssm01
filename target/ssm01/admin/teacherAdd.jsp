@@ -47,7 +47,7 @@
     <div class="right">
         <div class="location">
             <strong>你现在所在的位置是:</strong>
-            <span>教师管理页面 >> 教师修改页面</span>
+            <span>教师管理页面 >> 新增教师页面</span>
         </div>
         <div class="providerAdd">
             <form action="${basePath}/teacher/teacherAdd" method="post">
@@ -72,11 +72,11 @@
                     <input type="text" name="sex" id="providerName" placeholder="请输入性别"/>
                     <span >*</span>
                 </div>
-                <div>
-                    <label for="address">年龄：</label>
-                    <input type="text" name="age" id="address" placeholder="请输入年龄"/>
-                    <span>*</span>
-                </div>
+                <%--<div>--%>
+                    <%--<label for="address">年龄：</label>--%>
+                    <%--<input type="text" name="age" id="address" placeholder="请输入年龄"/>--%>
+                    <%--<span>*</span>--%>
+                <%--</div>--%>
                 <div>
                     <label for="sendTime">住址：</label>
                     <input type="text" name="address" id="sendTime" placeholder="请输入住址"/>
@@ -109,7 +109,7 @@
                 </div>
 
                 <div class="providerAddBtn">
-                    <input type="submit" value="修改"/>
+                    <input type="submit" value="新增"/>
                     <input type="button" value="返回" onclick="history.back(-1)"/>
                 </div>
             </form>

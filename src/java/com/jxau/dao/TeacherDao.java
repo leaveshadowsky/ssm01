@@ -59,6 +59,13 @@ public interface TeacherDao {
             "limit #{currentPage},#{pageNum}")
     List<Teacher> getAllTeacherBySubjectAddressSex(Map<String,Object> map);
 
+    //查询--模糊查询所得---总记录数
+    @Select("select count(*) from teacher " +
+            "where subject like #{subject} and address like #{address} and sex like #{sex} ")
+    int getAllTeacherBySubjectAddressSexTotal(Map<String,Object> map);
+
+
+
     /**
      *  查看所有教师
      * @param currentPage     从第start条数据开始

@@ -31,6 +31,9 @@ public interface TeacherService {
     //模糊查询，根据任教科目，地址和性别模糊查询
     List<Teacher> getAllTeacherBySubjectAddressSex(Map<String,Object> map);
 
+    //求模糊查询的总记录数
+    int getAllTeacherBySubjectAddressSexTotal(Map<String,Object> map);
+
     //修改教师预约状态
     int updateTeacherStatus(Teacher teacher);
 

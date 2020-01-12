@@ -1,17 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ include file="../base.jsp"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>南昌朝腾家教网</title>
-<link href="style/index.css" rel="stylesheet" type="text/css" />
-<link href="style/public.css" rel="stylesheet" type="text/css" />
-<script src="js/jquery.js" type="text/javascript"></script>
-<script src="js/tab.js" type="text/javascript"></script>
-<script src="js/scroll_pic.js" type="text/javascript"></script>
-<!--[if lte IE 6]>
-<script src="js/iepng.js" type="text/javascript"></script>      
+<link href="${basePath}/index/style/index.css" rel="stylesheet" type="text/css" />
+<link href="${basePath}/index/style/public.css" rel="stylesheet" type="text/css" />
+<script src="${basePath}/index/js/jquery.js" type="text/javascript"></script>
+<script src="${basePath}/index/js/tab.js" type="text/javascript"></script>
+<script src="${basePath}/index/js/scroll_pic.js" type="text/javascript"></script>
+<script src="${basePath}/index/js/iepng.js" type="text/javascript"></script>
 <script type="text/javascript">
 DD_belatedPNG.fix('div,ul,li,dl,dt,i,span,a,p,img,em,h2');
 </script>

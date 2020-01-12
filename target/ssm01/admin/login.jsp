@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ include file="../base.jsp"%>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
@@ -18,10 +19,10 @@
         <h1>朝腾科技家教管理系统</h1>
     </header>
     <section class="loginCont">
-        <form class="loginForm" action="welcome.html">
+        <form class="loginForm" action="${basePath}/admin/adminLogin">
             <div class="inputbox">
                 <label for="user">用户名：</label>
-                <input id="user" type="text" name="userName" placeholder="请输入用户名" required/>
+                <input id="user" type="text" name="userName" placeholder="请输入管理员用户名" required/>
             </div>
             <div class="inputbox">
                 <label for="mima">密码：</label>

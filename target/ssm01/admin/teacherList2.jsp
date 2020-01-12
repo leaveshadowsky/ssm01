@@ -76,7 +76,7 @@
             <c:forEach items="${teachers}" var="item">
                 <tr>
                     <td>${item.id}</td>
-                    <td>${item.name}</td>
+                    <td>${item.realName}</td>
                     <td>${item.sex}</td>
                     <td>${item.tel}</td>
                     <td>${item.address}</td>
