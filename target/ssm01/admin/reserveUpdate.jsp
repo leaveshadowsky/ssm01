@@ -53,6 +53,8 @@
             String id=request.getParameter("id");
             String teacherId=request.getParameter("teacherId");
             String studentId=request.getParameter("studentId");
+            String studentName=request.getParameter("studentName");
+            String teacherName=request.getParameter("teacherName");
             String reserveTime=request.getParameter("reserveTime");
         %>
 
@@ -70,15 +72,35 @@
                     <span >*</span>
                 </div>
                 <div>
+                    <label for="teacherName">老师姓名：</label>
+                    <input type="text" name="teacherName" id="teacherName" value="<%=teacherName%>" placeholder="<%=teacherName%>" readonly/>
+                    <span >*</span>
+                </div>
+                <div>
                     <label for="studentId">学生id：</label>
                     <input type="text" name="studentId" id="studentId" value="<%=studentId%>" placeholder="<%=studentId%>"/>
                     <span>*</span>
                 </div>
-                <select name="reserveStatus" style="margin-left: 204px;margin-top: 10px;">
-                    <option value="等待确认">等待确认</option>
-                    <option value="预约成功">预约成功</option>
-                    <option value="预约失败">预约失败</option>
-                </select>
+                <div>
+                    <label for="studentName">学生姓名：</label>
+                    <input type="text" name="studentName" id="studentName" value="<%=studentName%>" placeholder="<%=studentName%>" readonly/>
+                    <span >*</span>
+                </div>
+                <div>
+                    <label for="reserveTime">预约时间：</label>
+                    <input type="text" name="reserveTime" id="reserveTime" value="<%=reserveTime%>" placeholder="<%=reserveTime%>" readonly/>
+                    <span >*</span>
+                </div>
+
+                <div>
+                    <label for="reserveStatus">预约状态：</label>
+                    <select name="reserveStatus" id="reserveStatus" style="margin-left: 0px;margin-top: 10px;">
+                        <option value="等待确认">等待确认</option>
+                        <option value="预约成功">预约成功</option>
+                        <option value="预约失败">预约失败</option>
+                    </select>
+                </div>
+
 
                 <div class="providerAddBtn">
                     <!--<a href="#">保存</a>-->

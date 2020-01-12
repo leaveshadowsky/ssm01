@@ -53,7 +53,7 @@
             <p><strong>老师id：</strong><span>${reserves.teacherId}</span></p>
             <p><strong>学生id：</strong><span>${reserves.studentId}</span></p>
             <p><strong>预约状态：</strong><span>${reserves.reserveStatus}</span></p>
-            <p><strong>创建时间：</strong><span>${reserves.reserveTime}</span></p>
+            <p><strong>预约时间：</strong><span>${reserves.reserveTime}</span></p>
             <a href="${basePath}/reserve/getReserveByPage">返回</a>
         </div>
     </div>

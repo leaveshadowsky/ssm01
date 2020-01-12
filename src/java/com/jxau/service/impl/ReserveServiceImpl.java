@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class ReserveServiceImpl implements ReserveService {
@@ -48,6 +49,16 @@ public class ReserveServiceImpl implements ReserveService {
     @Override
     public List<Reserve> getReserveByStatus(String reserveStatus) {
         return reserveDao.getReserveByStatus(reserveStatus);
+    }
+
+    @Override
+    public List<Reserve> getAllReserveByStatus(Map<String, Object> map) {
+        return reserveDao.getAllReserveByStatus(map);
+    }
+
+    @Override
+    public int getAllReserveByStatusTotal(Map<String, Object> map) {
+        return reserveDao.getAllReserveByStatusTotal(map);
     }
 
 }

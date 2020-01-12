@@ -1,8 +1,10 @@
 package com.jxau.service;
 
 import com.jxau.model.Reserve;
+import com.jxau.model.Teacher;
 
 import java.util.List;
+import java.util.Map;
 
 public interface ReserveService {
 
@@ -26,5 +28,15 @@ public interface ReserveService {
 
     //通过状态获取预约信息
     List<Reserve> getReserveByStatus(String reserveStatus);
+
+
+
+    //根据预约状态查询预约信息
+    List<Reserve> getAllReserveByStatus(Map<String,Object> map);
+
+    //求根据预约状态查询的总记录数
+    int getAllReserveByStatusTotal(Map<String,Object> map);
+
+
 
 }

@@ -10,16 +10,5 @@
 <%--将虚拟目录存在bathPath中，使用绝对路径--%>
 <c:set var="basePath" value="${pageContext.request.contextPath}"/>
 
-<%--<%--%>
-    <%--Object userObj = session.getAttribute("user");--%>
-    <%--if(userObj == null){--%>
-        <%--response.sendRedirect("admin/login.jsp");--%>
-    <%--}--%>
-<%--%>--%>
 
-<script>
-    <c:if test="${not empty tips}">
-    alert("${tips}");
-    </c:if>
-</script>
 

@@ -12,8 +12,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>朝腾科技家教管理系统</title>
-    <link rel="stylesheet" href="css/public.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="${basePath}/admin/css/public.css"/>
+    <link rel="stylesheet" href="${basePath}/admin/css/style.css"/>
 </head>
 <body>
 <!--头部-->
@@ -34,12 +34,12 @@
         <h2 class="leftH2"><span class="span1"></span>功能列表 <span></span></h2>
         <nav>
             <ul class="list">
-                <li><a href="#">公告管理</a></li>
-                <li><a href="#">教师管理</a></li>
-                <li><a href="#">家长管理</a></li>
-                <li><a href="#">预约管理</a></li>
-                <li><a href="password.jsp">密码修改</a></li>
-                <li><a href="login.jsp">退出系统</a></li>
+                <li><a href="${basePath}/notice/getAllNoticeByPage">公告管理</a></li>
+                <li><a href="${basePath}/teacher/getAllTeacher">教师管理</a></li>
+                <li><a href="${basePath}/parent/getAllParent">家长管理</a></li>
+                <li><a href="${basePath}/reserve/getReserveByPage">预约管理</a></li>
+                <li><a href="${basePath}/admin/password.jsp">密码修改</a></li>
+                <li><a href="${basePath}/admin/login.jsp">退出系统</a></li>
             </ul>
         </nav>
     </div>
@@ -49,7 +49,7 @@
             <span>密码修改页面</span>
         </div>
         <div class="providerAdd">
-            <form action="/changePassword" method="post">
+            <form action="${basePath}/admin/adminChangePassword" method="post">
                 <!--div的class 为error是验证错误，ok是验证成功-->
                 <div class="">
                     <label for="oldPassword">旧密码：</label>
@@ -58,7 +58,7 @@
                 </div>
                 <div>
                     <label for="newPassword">新密码：</label>
-                    <input type="password" name="newPassword" id="newPassword" required/>
+                    <input type="password" name="password" id="newPassword" required/>
                     <span >*请输入新密码</span>
                 </div>
                 <div>

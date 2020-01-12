@@ -48,22 +48,31 @@
             <strong>您现在所在的位置是:</strong>
             <span>预约管理页面</span>
         </div>
-        <form class="search" action="${basePath}/reserve/getReserveByStatus" method="post">
+        <form class="search" action="${basePath}/reserve/getAllReserveByStatus" method="post">
             <span></span>
-            <input type="text" name="reserveStatus" placeholder="请输入预约状态"/>
+            <%--<input type="text" name="reserveStatus" placeholder="请输入预约状态"/>--%>
+
+            <select name="reserveStatus" id="reserveStatus">
+                <option value="等待确认">等待确认</option>
+                <option value="预约成功">预约成功</option>
+                <option value="预约失败">预约失败</option>
+            </select>
+
+
             <input type="submit" value="查询"/>
         </form>
         <!--用户-->
         <table class="providerTable" cellpadding="0" cellspacing="0">
             <tr class="firstTr">
-                <th width="10%">预约ID</th>
-                <th width="10%">教师ID</th>
+                <th width="5%">预约ID</th>
+                <th width="5%">教师ID</th>
                 <th width="10%">教师姓名</th>
                 <th width="10%">教师电话</th>
-                <th width="10%">学员ID</th>
+                <th width="5%">学员ID</th>
                 <th width="10%">学员姓名</th>
                 <th width="10%">学员电话</th>
-                <th width="10%">预约状态</th>
+                <th width="10%">预约时间</th>
+                <th width="15%>">预约状态</th>
                 <th width="20%">操作</th>
             </tr>
             <c:forEach items="${reserves}" var="item" varStatus="loop">
@@ -74,12 +83,13 @@
                     <td>${teachers[loop.index].tel}</td>
                     <td>${item.studentId}</td>
                     <td>${students[loop.index].name}</td>
+                    <td>${students[loop.index].tel}</td>
                     <td>${item.reserveTime}</td>
                     <td>${item.reserveStatus}</td>
                     <td>
                         <a href="${basePath}/reserve/getReserveById?id=${item.id}"><img src="${basePath}/admin/img/read.png" alt="查看" title="查看"/></a>
                         <a href="${basePath}/admin/reserveUpdate.jsp?id=${item.id}&teacherId=${item.teacherId}&studentId=${item.studentId}
-                    &reserveTime=${item.reserveTime}"><img src="${basePath}/admin/img/xiugai.png" alt="修改" title="修改"/></a>
+                    &reserveTime=${item.reserveTime}&teacherName=${teachers[loop.index].name}&studentName=${students[loop.index].name}"><img src="${basePath}/admin/img/xiugai.png" alt="修改" title="修改"/></a>
                             <%--<a href="#" class="removeUser"><img src="${basePath}/admin/img/schu.png" alt="删除" title="删除"/></a>--%>
                         <a href="${basePath}/reserve/deleteReserve?id=${item.id}" ><img src="${basePath}/admin/img/schu.png" alt="删除" title="删除"/></a>
                     </td>

@@ -21,7 +21,7 @@
     <h1>朝腾科技家教管理系统</h1>
     <div class="publicHeaderR">
         <p><span>管理员: </span><span style="color: #fff21b"> ${sessionScope.admin1.userName}</span> , 欢迎你！</p>
-        <a href="${basePath}/admin/login.jsp">退出</a>
+        <a href="${basePath}/admin/adminLogout">退出</a>
     </div>
 </header>
 <!--时间-->
