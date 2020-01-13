@@ -49,7 +49,7 @@
             <span>密码修改页面</span>
         </div>
         <div class="providerAdd">
-            <form action="${basePath}/admin/adminChangePassword" method="post">
+            <form action="${basePath}/adminManager/adminChangePassword" method="post">
                 <!--div的class 为error是验证错误，ok是验证成功-->
                 <div class="">
                     <label for="oldPassword">旧密码：</label>

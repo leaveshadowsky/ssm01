@@ -33,16 +33,16 @@
     <mvc:resources mapping="/images/**" location="/index/images/**"/>
 
     <!--配置拦截器-->
-    <!--<mvc:interceptors>-->
-        <!--<mvc:interceptor>-->
-            <!--&lt;!&ndash;配置指定目录的拦截器&ndash;&gt;-->
-            <!--<mvc:mapping path="/news/**"/>-->
-            <!--&lt;!&ndash;配置指定目录不拦截 &ndash;&gt;-->
-            <!--<mvc:exclude-mapping path="/user/**"/>-->
-            <!--&lt;!&ndash;指定拦截器的路径&ndash;&gt;-->
-            <!--<bean id="myInterceptor" class="com.jxau.interceptor.MyInterceptor"/>-->
-        <!--</mvc:interceptor>-->
-    <!--</mvc:interceptors>-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--配置指定目录的拦截器-->
+            <mvc:mapping path="/**"/>
+            <!--配置指定目录不拦截 -->
+            <mvc:exclude-mapping path="/adminManager/**"/>
+            <!--指定拦截器的路径-->
+            <bean id="loginInterceptor" class="com.jxau.interceptor.loginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
     <!--springmvc开启支持注解-->
 
