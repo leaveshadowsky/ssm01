@@ -39,8 +39,8 @@
                 <li><a href="${basePath}/teacher/getAllTeacher">教师管理</a></li>
                 <li><a href="${basePath}/parent/getAllParent">家长管理</a></li>
                 <li><a href="${basePath}/reserve/getReserveByPage">预约管理</a></li>
-                <li><a href="password.jsp">密码修改</a></li>
-                <li><a href="login.jsp">退出系统</a></li>
+                <li><a href="${basePath}/admin/password.jsp">密码修改</a></li>
+                <li><a href="${basePath}/admin/login.jsp">退出系统</a></li>
             </ul>
         </nav>
     </div>

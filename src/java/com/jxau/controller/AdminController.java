@@ -17,15 +17,19 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 @SessionAttributes(value = "admin1")
-@RequestMapping("/admin")
+@RequestMapping("/adminManager")
 public class AdminController {
     @Autowired
     AdminService adminService;
     @RequestMapping("/adminLogin")
     public String adminLogin(Admin admin,Model model){
         Admin admin1 = adminService.adminLogin(admin);
-        model.addAttribute("admin1",admin1);
-        return "index";
+        if(admin1 != null){
+            model.addAttribute("admin1",admin1);
+            return "index";
+        }
+        return "redirect:/admin/login.jsp";
+
     }
 
     @RequestMapping("/adminLogout")
